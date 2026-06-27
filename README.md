@@ -2,7 +2,6 @@
 
 > Here is the right place for your elePHPants!
 
-
 ### About
 - You can add your herd
 - See ranking
