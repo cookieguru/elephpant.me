@@ -6,7 +6,7 @@
             </a>
         </flux:tooltip>
         <div>
-            <p class="font-medium text-zinc-900 dark:text-white">{{ $elephpant->name }}</p>
+            <p class="font-medium text-zinc-900 dark:text-white">@if ($elephpant->format != \App\Format::Small){{ ucfirst($elephpant->format->value) }} @endif{{ $elephpant->name }}</p>
             <p class="text-sm text-zinc-500 dark:text-zinc-400"><em>({{ $elephpant->description }})</em></p>
             <p class="text-sm text-zinc-500 dark:text-zinc-400">By {{ $elephpant->sponsor }}</p>
         </div>

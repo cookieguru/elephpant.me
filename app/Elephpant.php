@@ -19,12 +19,20 @@ class Elephpant extends Model
     #[\Override]
     protected $fillable = [
         'id',
+        'format',
         'name',
         'description',
         'sponsor',
         'year',
         'image',
     ];
+
+    protected function casts(): array
+    {
+        return [
+            'format' => Format::class,
+        ];
+    }
 
     public function users(): BelongsToMany
     {
