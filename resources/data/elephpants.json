@@ -695,6 +695,14 @@
             "sponsor": "Monsieur Biz",
             "year": 2025,
             "image": "91-sylius.jpg"
+        },
+        {
+            "id": 92,
+            "name": "Magento (Adobe)",
+            "description": "Magento",
+            "sponsor": "Magento",
+            "year": 2018,
+            "image": "92-magento-adobe.jpg"
         }
     ]
 }
